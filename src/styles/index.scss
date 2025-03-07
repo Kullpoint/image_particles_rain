@@ -1,0 +1,17 @@
+@use './normalize.scss';
+
+//=====================================================================================================================
+
+body {
+    background-color: black;
+}
+
+#canvas1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    // width: 800px;
+    // height: 450px;
+    border: 3px solid #FFFFFF;
+    transform: translate(-50%, -50%);
+}
